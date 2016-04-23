@@ -82,24 +82,69 @@ div .col {
 }
 
 .project_item {
-	float: left;	
+	/*float: left;	*/
 }
+
 
 .project_item ul li {
 	display: inline-block;
 	list-style-type: none;
 	padding: 0px 5px;
-	margin: 0px;
-	font-size: 2rem;
+	margin: 0px 0px 5px 0px;
+	font-size: 1.8rem;
 	font-style: Segoe UI;
-	background-color: none;
-	/*background-image: url("../images/Neutrophil.png");
+	/*background-color: none;
+	background-image: url("../images/Neutrophil.png");
 	background-size: contain;*/
+}
+
+#LD {
+	color: rgb(160, 53, 164);
+	border-style: ridge;
+	border-color: rgba(160, 53, 164, 0.5);
+}
+
+#ICP {
+	color: rgb(10, 10, 193);
+	border-style: ridge;
+	border-color: rgba(10, 10, 193, 0.5);
+}
+
+
+.container_p {
+	/*display: table;*/
+	/*width: 100%; */
+	/*height: 750px;*/
+}
+
+.screenshots {
+	background: rgb(0, 115, 0);
+	float: left;
+	border-radius: 7px;
+	padding: 1.5% 3%;
+	margin: 2% 0% 10% 3%;
+	width: 40%;
+	height: 400px;
+}
+
+.program_description {
+	background: rgb(158, 255, 62);
+	float: left;
+	border-radius: 3px;
+	padding: 1.5% 3%;
+	margin: 2% 3% 10% 0%;
+	width: 41%;
+	height: 400px;	
+}
+
+.btn-floating {
+	background-color: rgb(158, 255, 62);
+	border-radius: 15px;
 }
 
 
 footer {
 	clear: both;
-	margin: 5px 5px;
+	margin: 20px 5px 5px 5px;
 }
 
