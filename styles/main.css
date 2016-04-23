@@ -31,6 +31,9 @@ body {
 	margin: 2px 5px;
 }
 
+#title {
+	margin: 2px 5px;
+}
 
 h1, h2 {
 	color: rgb(41,126,122);
@@ -77,6 +80,23 @@ div .col {
 	margin: 2%;
 	width: 27%;
 }
+
+.project_item {
+	float: left;	
+}
+
+.project_item ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0px 5px;
+	margin: 0px;
+	font-size: 2rem;
+	font-style: Segoe UI;
+	background-color: none;
+	/*background-image: url("../images/Neutrophil.png");
+	background-size: contain;*/
+}
+
 
 footer {
 	clear: both;
