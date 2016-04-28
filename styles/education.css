@@ -1,0 +1,83 @@
+header {
+	color: green;
+}
+
+header img {
+	width: 100%;
+	max-width: 1381px;
+}
+
+body {
+	margin: 0;
+	background: rgb(173,216,230);
+	font-family: segoe ui;
+}
+
+
+#medalNav ul {
+	display: inline;
+	margin: 0px;
+}
+
+#medalNav ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 4px 17px;
+	margin: 0px;
+	background: rgb(96, 179, 206);
+}
+
+#welcome {
+	margin: 2px 5px;
+}
+
+#title {
+	margin: 2px 5px;
+}
+
+h1, h2 {
+	color: rgb(41,126,122);
+}
+
+a {
+	color: green;
+}
+
+p {
+	background: rgb(175, 217, 228);
+	color: purple;
+	padding: 10px 1px;
+	margin: 0px 5px;
+}
+
+.secondary {
+	background: rgb(175, 217, 228);
+	color: navy
+	padding: 8px 1px;
+}
+
+div.row {
+	
+}
+
+#aboutMe {
+	clear: both;
+}
+
+.row {
+	
+}
+
+div .col {
+	float: left;
+	background: yellow;
+	border-radius: 5px;
+	padding: 1%;
+	margin: 2%;
+	width: 27%;
+}
+
+footer {
+	clear: both;
+	margin: 20px 5px 5px 5px;
+}
