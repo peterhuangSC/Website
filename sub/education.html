@@ -8,7 +8,7 @@
 		      rel="stylesheet" type="text/css"/>
 	</head>
 
-	<body> 
+	<body class="w3-container">
 		<header>
 			<img src="../images/Header_Apr2016_2.jpg">
 		</header>
@@ -30,24 +30,44 @@
 			</ul>
 		</div>
 
+		<div class="accordion light-grey">
+  			<button onclick="myFunction('sec1')" 
+  				class="btn-block left-align">Open Section 1
+  			</button>
+  			<div id="sec1" class="accordion-content container">
+    			<h4>Section 1</h4>
+    			<p>Some text..</p>
+  			</div>
+  			<button onclick="myFunction('sec2')" 
+  				class="btn-block left-align">Open Section 2
+  			</button>
+  			<div id="sec2" class="accordion-content container">
+    			<h4>Section 2</h4>
+    			<p>Some other text..</p>
+  			</div>
+		</div>
+
 		<div id="projectList">
 			<p>
 				Notes:
 				Take out courses, add in Categories: Accounting/Finance
 				and Computer Science. Use click and expand layout.
 			</p>
-			<h1>In Construction</h1>
+			<h3>In Construction</h3>
 		</div>
 
-		<div>
-			
+		<div id="extras"></div>
 
-
-		</div>
-
-		<div id="extras">
-
-		</div>
+		<script>
+		function myFunction(id) {
+    		var x = document.getElementById(id);
+    		if (x.className.indexOf("show") == -1) {
+        		x.className += " show";
+    		} else { 
+        		x.className = x.className.replace(" show", "");
+    		}
+		}
+		</script>
 
 	</body>
 

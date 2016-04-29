@@ -64,18 +64,91 @@ div.row {
 	clear: both;
 }
 
-.row {
-	
+/**/
+a {
+	background-color:transparent;
 }
 
-div .col {
-	float: left;
-	background: yellow;
-	border-radius: 5px;
-	padding: 1%;
-	margin: 2%;
-	width: 27%;
+a:active,a:hover {
+	outline:0;
 }
+
+button {
+	color:inherit;
+	font:inherit;
+	margin:0;
+}
+
+html{
+	overflow-x:hidden;
+}
+
+
+.btn-block {
+	border:none;
+	display:inline-block;
+	padding:10px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	color:yellow;
+	background-color:black;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+}
+
+.btn-block:hover {
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),
+	           0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-block {
+	width:100%;
+	margin: 0px 0px 0em 0px;
+}
+
+.accordion {
+	width:90%;
+	cursor:pointer;
+	margin: 2em 5%;
+	background-color:rgb(173,216,230);
+}
+
+.accordion-content {
+	cursor:auto;
+	display:none;
+	position:relative;
+	width:90%;
+	margin:0 0 1.5em 0;
+	padding:0;
+	background:rgb(173,216,230);
+}
+
+.accordion-content a {
+	margin:2px 16px;
+	display:block;
+	background:rgb(173,216,230);
+}
+
+.accordion-content a:hover {
+	background-color:#ccc;
+}
+
+/*shows the accordion textbox*/
+.show {
+	display:block!important;
+}
+
+/*left aligns buttons*/
+.left-align {
+	text-align:left!important;
+}
+
+/*Section text background colour*/
+.light-grey,.hover-light-grey:hover {
+	color:black;	
+}
+/**/
 
 footer {
 	clear: both;
