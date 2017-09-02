@@ -1,88 +1,497 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
-	<head> 
-		<meta charset="UTF-8">
-		<title>Peter Huang</title>
-		<link href="styles/main.css" rel="stylesheet" type="text/css"/>
-	</head>
+  <head>
 
-	<body> 
-		<header>
-			<img src="images/Header_Nov_2016.jpg">
-		</header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="SteeplePete">
 
-		<div id="medalNav">
-			<!--Make them open in new tab-->
-			<ul id="nav">
-				<li> <strong> Home </strong></li>
-				<li> <a href="sub/projects.html"> 
-				     <strong> Projects </strong> </a> </li>
-				<li> <a href="sub/education.html">
-					 <strong> Education </strong> </a> </li>
-			    <li> <a href="documents/peterhuangresume.pdf">
-			    	 <strong> Resume </strong> </a> </li>
-				<li> <a href="https://github.com/peterhuangsc"> 
-					<strong> GitHub </strong> </a> </li>
-				<li> <a href="https://ca.linkedin.com/in/peter-huang-aaa11aa8"> <strong> LinkedIn </strong> </a> </li>
-				<li> <a href="sub/running.html">
-					 <strong> Running </strong> </a> </li>
-			</ul>			
-		</div>
+    <title>Peter Huang : Personal Website</title>
 
-		<div id="welcome">
-			<h1>Welcome aboard, thanks for stopping by!</h1>
-		</div>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-		<div class="row">
-			<div class="col">Medal Rack (coming next update!)</div>
-			<div class="col">Medal Rack (coming next update!)</div>
-			<div class="col">Medal Rack (coming next update!)</div>
-		</div>
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
+          <i class="fa fa-times"></i>
+        </a>
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#top">Peter Huang</a>
+        </li>
+        <li>
+          <a class="js-scroll-trigger" href="#top">Home</a>
+        </li>
+        <li>
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li>
+          <a class="js-scroll-trigger" href="#experience">Work Experience</a>
+        </li>
+        <li>
+          <a class="js-scroll-trigger" href="#traits">Quick Facts</a>
+        </li>
+        <li>
+          <a class="js-scroll-trigger" href="#running">Running</a>
+        </li>
+        <li>
+          <a class="js-scroll-trigger" href="#portfolio">Projects</a>
+        </li>
+        <li>
+          <a class="js-scroll-trigger" href="#contact" onclick=$( "#menu-close").click();>Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="header" id="top">
+      <div class="text-vertical-center">
+        <h1>Peter Huang</h1>
+        <h3>Developer | Financier | Professional</h3>
+        <br>
+        <a href="./res/Peter-Huang-Resume.pdf" class="btn btn-dark btn-lg js-scroll-trigger">RESUME</a>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="container text-center">
+        <h2>Welcome to my personal website!</h2>
+        <p class="lead">Hey fellas! My name is Peter Huang, and I am 3rd year Computer Science and Financial
+                        Management student at the University of Waterloo. I enjoy developing software, staying
+                        updated on the financial markets, competing in Cross Country and Track and Field meets, 
+                        and working with people. My goal everyday is to learn something new and make progress - 
+                        whether it is coding a new module, implementing a more efficient algorithm, reading a 
+                        TMT sector article on CapitalIQ (Bloomberg terminal), checking up on the cryptocurrency 
+                        markets, or even finishing another track workout down in the books! </p>
+        <p class="lead">By the way, if you are an active fella and enjoy the occasional run to stay active and
+                        fit, you should definitely check out my <a target="_blank" href="https://www.youtube.com/channel/UCgmihz_-2qX6qHIqN9QIDMg"> YouTube channel</a>! I make videos showing you guys
+                        how to run faster, longer, the best places to go for a jog, and injury prevention tips.
+                        If you enjoy the videos, if the videos helped you, be sure to subscribe! Drop a like
+                        and comment to show your support so that I can make more great videos for you guys!
+        </p>
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <!--Experience -->
+    <section id="experience">
+      <p class="experiencetitle">Work Experience</p>
+      <div class="list-experience">
+        <div class="container">
+          <div class="row item-experience">
+            <div class="col-md-2 col-xs-12"><img class="img-exp" src="img/kpmg.png"></img></div>
+            
+            <div class="col-md-10">
+              <div class="row">
+                <div class="col-md-6 col-xs-6">
+                  <p class="exp-title">KPMG</p>
+                  <p class="exp-subtitle">Software Developer - Tax &amp; Digital Compliance</p>
+                </div>
+                <div class="col-md-6">
+                  <ul class="expRight">
+                    <li><span>January – April 2017</span></li>
+                    <li><span>Toronto, ON</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <ul class="exp-details">
+                    <li><span>Developed a tax election site to provide investors with electronic versatility to process sensitive data post stock merge</span></li>
+                    <li><span>Enhanced the efficiency and functionality in tax analytics applications for investment clients, providing statistical analytics for 3000+ fund transactions</span></li>
+                    <li><span>Automated CAN/US tax processing efficiency by 70% and eliminated errors from manual entry, using Excel/VBA (including investment returns)</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="row item-experience">
+            <div class="col-md-2 col-xs-12"><img class="img-exp" src="img/wsib.png"></img></div>
+            
+            <div class="col-md-10">
+            <div class="row">
+              <div class="col-md-6 col-xs-6">
+                <p class="exp-title">Workplace Safety Insurance Board</p>
+                <p class="exp-subtitle">IT Production Support</p>
+              </div>
+              <div class="col-md-6">
+                <ul class="expRight">
+                  <li><span>May – August 2016</span></li>
+                  <li><span>Toronto, ON</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="exp-details">
+                  <li><span>Strong analytical skills through researching, developing, and presenting a vendor scoring toolkit for a $300M+ RFP, approved by the VP of IT Operations</span></li>
+                  <li><span>Experience with KanBan board and Agile Scrum using JIRA</span></li>
+                  <li><span>Experience with SharePoint: version control, dashboard design, and integrating it with tutorial videos of the Solarwinds Server Application Monitoring tool</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section> 
+
+  <!--End of Experience-->
 
 
-		<div id="aboutMe">
-			<p id="welcome1">
-			    My name is Peter and I am currently a student at the University of Waterloo. My favourite subjects are finance and computer science. Moreover, I have been coding for over 4 years, and love developing apps of all sorts. I have developed apps for PC and web, and I am currently working on developing an app for Android/iOS. You should check out my portfolio and GitHub for projects I've worked on, or if you want to have a friendly competition with your friend on who can get a better highscore in Leukocytic Defense!
-			</p>
-			<p id="welcome2">
-				I am also pursuing the CFA and CPA designations on top of coding apps and side projects. Since I am passionate in finance, technology, and people, I hope to be part of a team that creates useful applications relevant to both fields!
-			</p>
-			<p id="sports">
-			    I run for the University of Waterloo's Cross Country and
-			    Track and Field Team. I run 8-10km races during cross 
-			    country season and 800/1500/Mile/Steeplechase races 
-			    during track season. Nevertheless, I compete in many
-			    road races when I'm not racing with the team. For 
-			    example, Yonge Street 10k, Scotiabank 5k/Half/Marathon,
-			    and races in the Waterloo Running Series. I am a very 
-			    open and fun guy--if you ever see me jogging, at a race, or even on campus, be sure to say hi!
-			</p>
-		</div>
 
-		<div id="experience">
 
-		</div>
+    <!-- Traits -->
+    <section id="traits" class="traits bg-primary text-white">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-10 mx-auto">
+            <h2>Quick Facts &amp; Character Traits</h2>
+            <hr class="small">
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>Planning</strong>
+                  </h4>
+                  <p>In a game of chess, the best players are able to plan 5 steps ahead of their opponents. They consider all of the possibilites and take the best choice, factoring in the risk, return, and other counter measures. Similarly, I create a realistic and organized plan, keeping me on the right track towards accomplishment.</p>
+                  <!--<a href="#" class="btn btn-light">Learn More</a>-->
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>Leadership</strong>
+                  </h4>
+                  <p>On the job and off the job, I always strive to be a great leader to others. I strive to keep strong communication, exemplify diligence, motivate teammates, give my best input, and attentively listen to others' inputs. In every situation, I strive to be a role model and a team player, to make progress and move closer towards the goal.</p>
+                  <!--<a href="#" class="btn btn-light">Learn More</a>-->
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>Passionate</strong>
+                  </h4>
+                  <p>I am always passionate about what I do. Being passionate takes away the feeling of doing something like it's a chore, but to doing something because you enjoy it. If you love what you do, it shows, and you spread positivity to others.</p>
+                  <!--<a href="#" class="btn btn-light">Learn More</a>-->
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>Fun</strong>
+                  </h4>
+                  <p>When it's cruch time, it's crunch time. But that doesn't mean there's no room left for fun when the context is appropriate. I always like to keep a balance of fun - a happy and motivated individual will produce far better results and contribute to a healthy relationship with their teammates, clients, and friends.</p>
+                  <!--<a href="#" class="btn btn-light">Learn More</a>-->
+                </div>
+              </div>
+            </div>
+            <!-- /.row (nested) -->
+          </div>
+          <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
 
-		<div id="courses taken">
+    <!-- Callout -->
+    <aside class="callout">
+      <div class="text-vertical-center">
+        <h2>"A lot of people run a race to see who is the fastest. I run to see who has the most guts, who can punish himself into exhausting pace, and then at the end, push himself even more."</h2>
+        <h2> - Steve Prefontaine </h2>
+      </div>
+    </aside>
 
-		</div>
+    <!--Running -->
+  <section id="running" class="running">
+    <p class="running-header">Running</p>
+    
+    <table>
+      <tr>
+        <th>Distance</th>
+        <th>2017 Upcoming Races</th>
+        <th>Time</th>
+        <th>Date</th>
+      </tr>     
+      <tr>
+        <td>5km road</td>
+        <td>Fall Classic 5k (Waterloo)</td>
+        <td>[Goal: 17:30]</td>
+        <td>10/15/2017</td>
+      </tr>  
+      <tr>
+        <td>5km road</td>
+        <td>Scotiabank Toronto Waterfront 5km (Toronto)</td>
+        <td>[Goal: 17:15]</td>
+        <td>10/22/2017</td>
+      </tr>
+      <tr>
+        <td>7km XC</td>
+        <td>Brock Open (St.Catherines)</td>
+        <td>[Goal: 24:30]</td>
+        <td>TBD</td>
+      </tr>
+      <tr>
+        <td>4x400m</td>
+        <td>Zolten Tenke Classic (Guelph)</td>
+        <td>[Goal 0:52 split]</td>
+        <td>11/??/2016</td>
+      </tr>
+      <tr>
+        <td>600m</td>
+        <td>Bob Vigars Season Opener (London)</td>
+        <td>[Goal 1:24]</td>
+        <td>12/??/2016</td>
+      </tr>
+      <tr>
+        <td>1500m</td>
+        <td>Guelph Winter Opener (Guelph)</td>
+        <td>[Goal: 4:16]</td>
+        <td>12/??/2016</td>
+      </tr>
 
-		<footer>
-			<span class="site-footer-owner">
-			<strong> Contact: </strong>
-			<a href="mailto:peter.huang339@gmail.com"> 
-				Email: peter.huang339@gmail.com</a> <br>
-			Copyright &copy Peter Huang 2016
-			</span>
-		</footer>
+        <tr>
+          <th>Distance</th>
+          <th>Personal Bests from Official Races</th>
+          <th>Time</th>
+          <th>Date</th>
+        </tr>
+        <tr>
+          <td>600m(i)</td>
+          <td>Bob Vigars Season's Opener (London)</td>
+          <td>1:33.52</td>
+          <td>12/05/2015</td>
+        </tr>
+        <tr>
+          <td>800m</td>
+          <td>TDSSAA North Regional (Toronto)</td>
+          <td>2:14.10</td>
+          <td>05/15/2015</td>
+        </tr>
+        <tr>
+          <td>1000m(i)</td>
+          <td>Bob Vigars Season's Opener (London)</td>
+          <td>2:51.61</td>
+          <td>12/03/2016<td>
+        </tr>
+        <tr>
+          <td>1500m(i)</td>
+          <td>46th Annual York Open (Toronto)</td>
+          <td>4:31.65</td>
+          <td>02/04/2017</td>
+        </tr>
+        <tr>
+          <td>1500m</td>
+          <td>TDSSAA North Regional (Toronto)</td>
+          <td>4:45.80</td>
+          <td>05/14/2015</td>
+        </tr>
+        <tr>
+          <td>2000m SC</td>
+          <td>TDSSAA North Regional (Toronto)</td>
+          <td>7:20.56</td>
+          <td>05/14/2015</td>
+        </tr>
+        <tr>
+          <td>5km road</td>
+          <td>Waterloo Classic 5km (Toronto)</td>
+          <td>19:06.00</td>
+          <td>06/18/2017</td>
+        </tr>
+        <tr>
+          <td>7km XC</td>
+          <td>Brock Open (St.Catherines)</td>
+          <td>25:33.08</td>
+          <td>10/24/2015</td>
+        </tr>
+        <tr>
+          <td>8km XC</td>
+          <td>Western 42th Invitational (London)</td>
+          <td>29:57.40</td>
+          <td>09/24/2016</td>
+        </tr>
+        <tr>
+          <td>10km XC</td>
+          <td>Don Mills Open (Waterloo)</td>
+          <td>38:16.02</td>
+          <td>10/03/2015</td>
+        </tr>
+        <tr>
+          <td>10km road</td>
+          <td>Yonge Street 10km (Toronto)</td>
+          <td>38:49.40</td>
+          <td>04/19/2015</td>
+        </tr>
+    </table>
+  </section>
 
-	</body>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto text-center">
+            <h2>Projects and Fun Games by Peter!</h2>
+            <hr class="small">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="portfolio-item">
+                  <a href="./sub/projects.html">
+                    <img class="img-portfolio img-fluid" src="img/ICP_SS2.jpg">
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="portfolio-item">
+                  <a href="./sub/projects.html">
+                    <img class="img-portfolio img-fluid" src="img/LD_SS4.jpg">
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="portfolio-item">
+                  <a href="https://github.com/peterhuangSC/FinancialModellingSnP100">
+                    <img class="img-portfolio img-fluid" src="img/SPFin_SS1.jpg">
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="portfolio-item">
+                  <a href="./res/IRC_2017_Polaris.pdf">
+                    <img class="img-portfolio img-fluid" src="img/PII_SS1.jpg">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- /.row (nested) -->
+            <!--<a href="#" class="btn btn-dark">View More Items</a>-->
+          </div>
+          <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <!-- Call to Action --><!--
+    <aside class="call-to-action bg-primary text-white">
+      <div class="container text-center">
+        <h3>The buttons below are impossible to resist.</h3>
+        <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+        <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+      </div>
+    </aside>
+    -->
+
+
+    <!-- Map -->
+    <section id="contact" class="map">
+      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Bay+Adelaide+Center,+Bay+Street,+Toronto,+ON&amp;aq=0&amp;oq=KPMG&amp;sll=43.6503019,-79.3811498&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=KPMG,+Bay+Street,+Toronto,+ON&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+      <br/>
+      <small>
+        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Bay+Adelaide+Center,+Bay+Street,+Toronto,+ON&amp;aq=0&amp;oq=twitter&amp;sll=43.6503019,-79.3811498&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=KPMG,+Bay+Street,+Toronto,+ON&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+      </small>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto text-center">
+            <h4>
+              <strong>Peter Huang</strong>
+            </h4>
+            <p>Student Athlete, Computing &amp; Financial Management
+              <br>University of Waterloo, Waterloo, ON</p>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa fa-phone fa-fw"></i>
+                Phone number may be provided after an email request!</li>
+              <li>
+                <i class="fa fa-envelope-o fa-fw"></i>
+                <a href="mailto:peter.huang339@gmail.com">peter.huang339@gmail.com</a>
+              </li>
+            </ul>
+            <br>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="https://github.com/peterhuangsc">
+                  <i class="fa fa-github fa-fw fa-3x"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/steeplepete/">
+                  <i class="fa fa-instagram fa-fw fa-3x"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/peter-huang-aaa11aa8/">
+                  <i class="fa fa-linkedin fa-fw fa-3x"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCgmihz_-2qX6qHIqN9QIDMg">
+                  <i class="fa fa-youtube fa-fw fa-3x"></i>
+                </a>
+              </li>
+            </ul>
+            <hr class="small">
+            <p class="text-muted">Copyright &copy; Peter Huang 2017</p>
+          </div>
+        </div>
+      </div>
+      <a id="to-top" href="#top" class="btn btn-dark btn-lg js-scroll-trigger">
+        <i class="fa fa-chevron-up fa-fw fa-1x"></i>
+      </a>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.js"></script>
+
+  </body>
 
 </html>
-
-<!--This is a comment. Comments are not displayed in the browser-->
-<!--The body is what the user interacts with-->
-<!--<strong> bold, <em> italic, <a>hyperlink</a>-->
-<!-- <a href="site.com">site.com</a>-->
-<!-- <img src="imageurl.com/.../">-->
