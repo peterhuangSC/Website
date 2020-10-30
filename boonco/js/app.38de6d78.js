@@ -189,18 +189,18 @@
 				name: "Content",
 				data: function () {
 					return {
-						descriptions: ["Browse what others are offering. If you can’t find what <br/>you want, create a bounty and watch the boons roll in.", "boon <br/>[bo͞on]  noun <br/>1. a thing that is helpful or beneficial. <br/>2. a favor or request."],
+						descriptions: ["Browse what others are offering. If you can’t find what <br/>you want, create a bounty and watch the boons roll in.", "boon <br/>[bo͞on]  noun <br/>1. a thing that is helpful or beneficial. <br/>2. a favor or request.", "Test 3"],
 						index: 0,
 						description: ""
 					}
 				},
 				methods: {
 					updateDesc: function () {
-						console.log(this.index), this.index = 0 == this.index ? 1 : 0, this.description = this.descriptions[this.index]
+						console.log(this.index), this.index = (this.index + 1) % this.descriptions.length, this.description = this.descriptions[this.index];
 					}
 				},
 				created: function () {
-					console.log("TEST"), this.updateDesc(), setInterval(this.updateDesc, 5e3)
+					console.log("TEST"), this.updateDesc(), setInterval(this.updateDesc, 8500)
 				}
 			}),
 			b = v,
