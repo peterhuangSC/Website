@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap);
+.nav-container[data-v-24919d5c] {
+  margin-top: 2%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px
+}
+
+a[data-v-24919d5c]:hover {
+  font-family: Poppins;
+  font-weight: 600
+}
+
+ul[data-v-24919d5c] {
+  list-style-type: none;
+  padding-right: 15%
+}
+
+li[data-v-24919d5c] {
+  font-size: 24px
+}
+
+#logo[data-v-24919d5c] {
+  margin-right: auto;
+  pointer-events: none;
+  padding-left: 10%;
+  font-size: 34px;
+  font-family: Poppins;
+  font-weight: 600
+}
+
+.navbar-item[data-v-24919d5c] {
+  padding: 10px 20px
+}
+
+@media screen and (max-width:692px) {
+  #logo[data-v-24919d5c] {
+    color: #a0a0a0;
+    margin: 0;
+    padding: 0
+  }
+  a[data-v-24919d5c] {
+    color: #a0a0a0;
+    text-align: center
+  }
+  .nav-container[data-v-24919d5c] {
+    padding: 0;
+    flex-direction: column;
+    justify-content: center
+  }
+}
+
+.fade-enter-active[data-v-c9553fc6],
+.fade-leave-active[data-v-c9553fc6] {
+  transition: opacity .5s
+}
+
+.fade-enter[data-v-c9553fc6],
+.fade-leave-to[data-v-c9553fc6] {
+  opacity: 0
+}
+
+.content[data-v-c9553fc6] {
+  display: flex;
+  flex: auto;
+  justify-content: center
+}
+
+.coming-soon[data-v-c9553fc6] {
+  font-family: Poppins;
+  font-weight: 600
+}
+
+.text-stack[data-v-c9553fc6] {
+  overflow-wrap: break-word;
+  position: relative;
+  margin: 50px 50px 0 50px
+}
+
+.iphone[data-v-c9553fc6] {
+  margin: 75px 0 0 100px;
+  width: 25%;
+  height: 25%
+}
+
+@media screen and (max-width:692px) {
+  .content[data-v-c9553fc6] {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center
+  }
+  .text-stack[data-v-c9553fc6] {
+    text-align: center;
+    color: #a0a0a0
+  }
+  .iphone[data-v-c9553fc6] {
+    text-align: center;
+    margin: 10px 0 10px 0;
+    width: 80%
+  }
+}
+
+.background[data-v-9b738d34] {
+  top: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%
+}
+
+svg[data-v-9b738d34] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1
+}
+
+body {
+  margin: 0
+}
+
+#app {
+  font-family: Poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+#app,
+a {
+  color: #fff
+}
+
+a {
+  text-decoration: none
+}
